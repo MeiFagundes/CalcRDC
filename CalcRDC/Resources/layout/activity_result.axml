@@ -58,7 +58,7 @@
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
-                    android:text="Tomadas fêmea RJ-45"
+                    android:text="Tomadas fêmea"
                     android:layout_width="121.0dp"
                     android:layout_gravity="top" />
                 <TextView
