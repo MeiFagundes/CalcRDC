@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:p4="http://xamarin.com/mono/android/designer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="30dp">
+        <TextView
+            android:text="Área de Trabalho"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/textView1"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:paddingBottom="8dp" />
+        <TableLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:id="@+id/areaTrabalhoTable"
+            android:paddingBottom="20dp">
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:id="@+id/textView2"
+                    android:text="Nome do Material"
+                    android:layout_width="fill_parent"
+                    android:textStyle="bold" />
+                <TextView
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_width="fill_parent"
+                    android:id="@+id/textView3"
+                    android:text="Especificação" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Tomadas fêmea"
+                    android:layout_width="121.0dp"
+                    android:layout_gravity="top" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/tomadasFemeaRow"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Espelhos"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/espelhosRow"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Patch Cord Dados"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/CordRedeRow"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Patch Cord Telecom"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/CordTeleRow"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Patch Cord VoIP"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/CordVOIPRow"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Patch Cord CFTV"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/CordCFTVRow"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Etiquetas"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/EtiquetasATRow"/>
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:text="Malha Horizontal"
+            android:textSize="25dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:stretchColumns="1"
+            android:id="@+id/textView1"
+            android:gravity="center"
+            android:paddingBottom="8dp" />
+        <TableLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:stretchColumns="*"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/areaTrabalhoTable"
+            android:baselineAligned="false"
+            android:paddingBottom="20dp">
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Nome do Material"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent"
+                    android:textStyle="bold" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView3"
+                    android:text="Especificação"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Cabo UTP"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/cabosRow"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Etiquetas"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/etiquetasMHRow"/>
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:text="Sala de Telecom"
+            android:textSize="25dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:stretchColumns="1"
+            android:id="@+id/textView1"
+            android:gravity="center"
+            android:paddingBottom="8dp" />
+        <TableLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:stretchColumns="*"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/areaTrabalhoTable"
+            android:baselineAligned="false"
+            android:paddingBottom="20dp">
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Nome do Material"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent"
+                    android:textStyle="bold" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView3"
+                    android:text="Especificação"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Patch Panel"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/patchPanel"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Switch"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/swt"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Organizadores de Cabo"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/orgCabo"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Patch Cable Dados"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/CableDadosRow"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Patch Cable Telecom"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/CableTeleRow"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Patch Cable VoIP"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/CableVoipRow"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Patch Cable CFTV"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/CableCFTVRow"/>
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:text="Rack"
+            android:textSize="25dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:stretchColumns="1"
+            android:id="@+id/textView1"
+            android:gravity="center"
+            android:paddingBottom="8dp" />
+        <TableLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:stretchColumns="*"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/areaTrabalhoTable"
+            android:baselineAligned="false"
+            android:paddingBottom="20dp">
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:textStyle="bold"
+                    android:id="@+id/textView2"
+                    android:text="Nome do Material"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView3"
+                    android:text="Especificação" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Tamanho"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/tamRack"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Quantidade"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/qtRack"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Tipo"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/tipoRack"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Exaustor"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/exaustor"/>
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:text="Acessórios"
+            android:textSize="25dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:stretchColumns="1"
+            android:id="@+id/textView1"
+            android:gravity="center"
+            android:paddingBottom="8dp" />
+        <TableLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:stretchColumns="*"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/areaTrabalhoTable"
+            android:baselineAligned="false"
+            android:paddingBottom="20dp">
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Nome do Material"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView3"
+                    android:text="Especificação" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:padding="5px">
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/textView2"
+                    android:text="Porca Gaiola"
+                    android:layout_gravity="top"
+                    android:layout_width="fill_parent" />
+                <TextView
+                    android:textSize="18dp"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:id="@+id/porcaGaiola"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
