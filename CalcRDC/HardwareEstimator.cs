@@ -32,7 +32,6 @@ namespace CalcRDC {
         public int PorcaGaiola { get {
                 UpdateRackinfo();
                 return 4 * TamanhoRack * QtRacks; } }
-        
 
         readonly int _ptsDados, _ptsTele, _ptsCFTV, _ptsVOIP;
         readonly bool _rackAberto;
@@ -48,27 +47,28 @@ namespace CalcRDC {
 
         void UpdateRackinfo() {
 
-            var tamTotalRack = Switchs + PatchPanels + OrganizadoresCabo + 4.0;
-
-            if (!_rackAberto)
-                tamTotalRack += 2.0;
-            tamTotalRack *= 1.5;
+            double tamTotalRack = Switchs + PatchPanels + OrganizadoresCabo + 4;
 
             var qtRacks = 1;
-            int tamRackTmp = (int) tamTotalRack;
+            tamTotalRack *= 1.5;
+            
+            double tamRackTmp = tamTotalRack;
             while (Math.Ceiling(tamTotalRack / qtRacks) > 48) {
                 qtRacks++;
-                tamRackTmp = (int) Math.Ceiling(tamTotalRack / qtRacks);
+                tamRackTmp = Math.Ceiling(tamTotalRack / qtRacks);
             }
             tamTotalRack = tamRackTmp;
             _qtRacks = qtRacks;
 
             if (tamTotalRack < 12) {
-                _tamRack = (int) Math.Ceiling(tamTotalRack / 2) * 2;
+                _tamRack = Convert.ToInt32(Math.Ceiling(tamTotalRack / 2) * 2);
             }
             else if (tamTotalRack > 12 && tamTotalRack < 48) {
-                _tamRack = (int) Math.Ceiling(tamTotalRack / 4) * 4;
+                _tamRack = Convert.ToInt32(Math.Ceiling(tamTotalRack / 4) * 4);
             }
+
+            if (!_rackAberto)
+                _tamRack += 2;
 
             if (_tamRack < 1)
                 _tamRack = 1;

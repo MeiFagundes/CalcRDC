@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:p4="http://xamarin.com/mono/android/designer"
@@ -10,9 +9,9 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp"
-        android:paddingTop="30dp">
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp">
         <TextView
             android:text="Área de Trabalho"
             android:textAppearance="?android:attr/textAppearanceMedium"
@@ -21,7 +20,7 @@
             android:minWidth="25px"
             android:minHeight="25px"
             android:id="@+id/textView1"
-            android:textSize="25dp"
+            android:textSize="22dp"
             android:gravity="center"
             android:paddingBottom="8dp" />
         <TableLayout
@@ -37,42 +36,44 @@
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:id="@+id/textView2"
                     android:text="Nome do Material"
                     android:layout_width="fill_parent"
                     android:textStyle="bold" />
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:textStyle="bold"
-                    android:layout_width="fill_parent"
+                    android:layout_width="75.5dp"
                     android:id="@+id/textView3"
-                    android:text="Especificação" />
+                    android:text="Quantidade"
+                    android:gravity="center" />
             </TableRow>
             <TableRow
                 android:id="@+id/tableRow1"
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
-                    android:text="Tomadas fêmea"
+                    android:text="Tomadas fêmea RJ-45"
                     android:layout_width="121.0dp"
                     android:layout_gravity="top" />
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
-                    android:id="@+id/tomadasFemeaRow"/>
+                    android:id="@+id/tomadasFemeaRow"
+                    android:gravity="center"/>
             </TableRow>
             <TableRow
                 android:id="@+id/tableRow1"
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -80,7 +81,8 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/espelhosRow"/>
@@ -90,7 +92,7 @@
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -98,7 +100,8 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/CordRedeRow"/>
@@ -108,7 +111,7 @@
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -116,7 +119,8 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/CordTeleRow"/>
@@ -126,7 +130,7 @@
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -134,7 +138,8 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/CordVOIPRow"/>
@@ -144,7 +149,7 @@
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -152,7 +157,8 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/CordCFTVRow"/>
@@ -162,7 +168,7 @@
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -170,7 +176,8 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/EtiquetasATRow"/>
@@ -178,7 +185,7 @@
         </TableLayout>
         <TextView
             android:text="Malha Horizontal"
-            android:textSize="25dp"
+            android:textSize="22dp"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -202,7 +209,7 @@
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -211,27 +218,30 @@
                     android:layout_width="fill_parent"
                     android:textStyle="bold" />
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView3"
-                    android:text="Especificação"
-                    android:textStyle="bold" />
+                    android:text="Quantidade"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_width="57.0dp" />
             </TableRow>
             <TableRow
                 android:id="@+id/tableRow1"
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
-                    android:text="Cabo UTP"
+                    android:text="Cabos UTP"
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/cabosRow"/>
@@ -241,7 +251,7 @@
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -249,7 +259,8 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
+                    android:gravity="center"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/etiquetasMHRow"/>
@@ -257,7 +268,7 @@
         </TableLayout>
         <TextView
             android:text="Sala de Telecom"
-            android:textSize="25dp"
+            android:textSize="22dp"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -281,28 +292,30 @@
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
                     android:text="Nome do Material"
                     android:layout_gravity="top"
-                    android:layout_width="fill_parent"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_width="158.5dp" />
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView3"
-                    android:text="Especificação"
-                    android:textStyle="bold" />
+                    android:text="Quantidade"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_width="99.0dp" />
             </TableRow>
             <TableRow
                 android:id="@+id/tableRow1"
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -310,17 +323,21 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
-                    android:id="@+id/patchPanel"/>
+                    android:id="@+id/patchPanel"
+                    android:layout_marginRight="0.0dp"
+                    android:text="a"
+                    android:layout_width="21.0dp" />
             </TableRow>
             <TableRow
                 android:id="@+id/tableRow1"
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -328,17 +345,19 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
-                    android:id="@+id/swt"/>
+                    android:id="@+id/swt"
+                    android:layout_width="31.0dp" />
             </TableRow>
             <TableRow
                 android:id="@+id/tableRow1"
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -346,7 +365,8 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/orgCabo"/>
@@ -356,7 +376,7 @@
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -364,7 +384,8 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/CableDadosRow"/>
@@ -374,7 +395,7 @@
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -382,7 +403,8 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/CableTeleRow"/>
@@ -392,7 +414,7 @@
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -400,7 +422,8 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/CableVoipRow"/>
@@ -410,7 +433,7 @@
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -418,7 +441,8 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/CableCFTVRow"/>
@@ -426,7 +450,7 @@
         </TableLayout>
         <TextView
             android:text="Rack"
-            android:textSize="25dp"
+            android:textSize="22dp"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -450,7 +474,7 @@
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:textStyle="bold"
@@ -460,18 +484,19 @@
                     android:layout_width="fill_parent" />
                 <TextView
                     android:textStyle="bold"
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView3"
-                    android:text="Especificação" />
+                    android:text="Especificação"
+                    android:layout_width="7.0dp" />
             </TableRow>
             <TableRow
                 android:id="@+id/tableRow1"
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -479,7 +504,8 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/tamRack"/>
@@ -489,7 +515,7 @@
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -497,7 +523,8 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/qtRack"/>
@@ -507,7 +534,7 @@
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -515,7 +542,8 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/tipoRack"/>
@@ -525,7 +553,7 @@
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -533,7 +561,8 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/exaustor"/>
@@ -541,7 +570,7 @@
         </TableLayout>
         <TextView
             android:text="Acessórios"
-            android:textSize="25dp"
+            android:textSize="22dp"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -565,7 +594,7 @@
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:textStyle="bold"
                     android:minWidth="30px"
                     android:minHeight="30px"
@@ -574,19 +603,20 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:textStyle="bold"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView3"
-                    android:text="Especificação" />
+                    android:text="Quantidade"
+                    android:layout_width="0.0dp" />
             </TableRow>
             <TableRow
                 android:id="@+id/tableRow1"
                 android:layout_width="match_parent"
                 android:padding="5px">
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
                     android:id="@+id/textView2"
@@ -594,10 +624,14 @@
                     android:layout_gravity="top"
                     android:layout_width="fill_parent" />
                 <TextView
-                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
                     android:minWidth="30px"
                     android:minHeight="30px"
-                    android:id="@+id/porcaGaiola"/>
+                    android:id="@+id/porcaGaiola"
+                    android:text="80"
+                    android:layout_marginRight="0.0dp"
+                    android:layout_marginLeft="0.0dp" />
             </TableRow>
         </TableLayout>
     </LinearLayout>

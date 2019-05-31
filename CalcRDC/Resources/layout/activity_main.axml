@@ -23,7 +23,7 @@
             android:layout_height="60.5dp"
             android:id="@+id/textView5"
             android:gravity="center"
-            android:textSize="20dp"
+            android:textSize="19dp"
             android:layout_marginBottom="15dp"
             android:layout_marginTop="8dp" />
         <TextView
@@ -88,7 +88,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView6"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="10dp"
             android:textSize="16dp" />
         <RadioGroup
             android:minWidth="25px"
@@ -98,19 +98,19 @@
             android:id="@+id/tipoRack"
             android:fadingEdge="none"
             android:orientation="horizontal"
-            android:gravity="fill_horizontal">
+            android:gravity="center">
             <RadioButton
-                android:layout_width="wrap_content"
+                android:layout_width="137.0dp"
                 android:layout_height="wrap_content"
                 android:checked="true"
-                android:text="Rack Aberto"
-                android:id="@+id/tipoRackAberto"
-                android:textSize="15dp" />
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="Rack Fechado"
                 android:id="@+id/tipoRackFechado"
+                android:textSize="15dp" />
+            <RadioButton
+                android:layout_width="118.0dp"
+                android:layout_height="wrap_content"
+                android:text="Rack Aberto"
+                android:id="@+id/tipoRackAberto"
                 android:textSize="15dp" />
         </RadioGroup>
         <Button

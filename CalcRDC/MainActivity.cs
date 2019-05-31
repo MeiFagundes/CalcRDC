@@ -10,11 +10,9 @@ using AlertDialog = Android.App.AlertDialog;
 
 namespace CalcRDC {
     [Activity(Label = "CalcRDC", Theme = "@style/AppTheme", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity
-    {
+    public class MainActivity : AppCompatActivity {
 
-        protected override void OnCreate(Bundle savedInstanceState)
-        {
+        protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
@@ -34,13 +32,8 @@ namespace CalcRDC {
 
             AlertDialog.Builder aboutAlert = new AlertDialog.Builder(this);
             aboutAlert.SetTitle("Sobre");
-            TextView aboutMessage = new TextView(this);
-            aboutMessage.Text = "Desenvolvido por Mei Fagundes\n2019";
-            aboutMessage.Gravity = GravityFlags.CenterHorizontal;
-            aboutMessage.SetTextSize(Android.Util.ComplexUnitType.Dip, 16);
-            aboutAlert.SetView(aboutMessage);
 
-            aboutAlert.SetPositiveButton("Ok", (senderAlert, args) => {});
+            aboutAlert.SetMessage("Desenvolvido por Mei Fagundes\nGNU General Public License v3.0, 2019");
 
             Dialog dialog = aboutAlert.Create();
             dialog.Show();
@@ -48,8 +41,7 @@ namespace CalcRDC {
             return base.OnOptionsItemSelected(item);
         }
 
-        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
-        {
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults) {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);

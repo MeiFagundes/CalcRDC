@@ -2903,11 +2903,11 @@ namespace CalcRDC
 			// aapt resource value: 0x7f080096
 			public const int tipoRack = 2131230870;
 			
-			// aapt resource value: 0x7f080097
-			public const int tipoRackAberto = 2131230871;
-			
 			// aapt resource value: 0x7f080098
-			public const int tipoRackFechado = 2131230872;
+			public const int tipoRackAberto = 2131230872;
+			
+			// aapt resource value: 0x7f080097
+			public const int tipoRackFechado = 2131230871;
 			
 			// aapt resource value: 0x7f08001c
 			public const int title = 2131230748;
@@ -3375,9 +3375,6 @@ namespace CalcRDC
 			
 			// aapt resource value: 0x7f090025
 			public const int path_password_strike_through = 2131296293;
-			
-			// aapt resource value: 0x7f090029
-			public const int preenchaOsDadosParaEstimar = 2131296297;
 			
 			// aapt resource value: 0x7f090011
 			public const int search_menu_title = 2131296273;
